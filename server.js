@@ -1,5 +1,5 @@
 const express = require("express");
-
+const noteData = require("./db/db.json");
 const app = express();
 const PORT = process.env.PORT || 3001;
 const path = require("path");
@@ -11,7 +11,7 @@ app.use(express.static("public"));
 
 app.get("/api/notes", (req, res) => {
   console.log(`call to api " + ${req.url}`);
-  res.json("handling api call");
+  res.json(noteData);
 });
 
 app.listen(PORT, () => {
