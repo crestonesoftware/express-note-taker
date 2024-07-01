@@ -21,6 +21,9 @@ N/A - application is deployed to render.com
 ## <a name="Usage"></a>Usage
 - at the main page, click [Get Started]
 - note the list of existing notes in the left column
+
+![image](https://github.com/crestonesoftware/express-note-taker/assets/13701417/636dbe7b-0156-42e5-bfe8-dccb3cbb0c0c)
+
 ## <a name="Credits"></a>Credits
 Thank you to 
       
